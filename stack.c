@@ -71,7 +71,7 @@ void display()
         return;
     }
     printf("Stack elements are\n");
-    for (i = top; i >= 0; i--)
+    for (i = 0; i >= top; i--)
         printf("| %d |\n", s[i]);
     return;
 }
