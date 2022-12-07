@@ -71,23 +71,8 @@ void display()
         return;
     }
     printf("Stack elements are\n");
-    for (i = 0; i >= top; i--)
+    for (i = top; i >= 0; i--)
         printf("| %d |\n", s[i]);
     return;
 }
-void palindrome()
-{
-    int flag = 1, i;
-    for (i = 0; i <= top / 2; i++)
-    {
-        if (s[i] != s[top - i])
-        {
-            flag = 0;
-            break;
-        }
-    }
-    if (flag == 1)
-        printf("It is palindrome\n");
-    else
-        printf("Not a palindrome\n");
-}
+
