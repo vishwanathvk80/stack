@@ -42,7 +42,7 @@ void push()
     int ele;
     if (top == MAX - 1)
     {
-        printf("stack overflow\n");
+        printf("stack overflow test\n");
         return;
     }
     printf("enter an element to be pushed\n");
